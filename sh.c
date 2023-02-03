@@ -7,6 +7,11 @@
 #include <sys/wait.h>
 #include <time.h>
 #include <unistd.h>
+#define _POSIX_SOURCE
+#include <sys/types.h>
+#include <signal.h>
+
+
 
 #include "jobs.h"
 
